@@ -249,12 +249,12 @@
     },
     {
       "id": "7261",
-      "title": "CCC Quarterfinals",
-      "start": "2026-11-07",
+      "title": "#20 College of Idaho",
+      "start": "2026-11-07T13:00:00-08:00",
       "end": null,
-      "allDay": true,
-      "timeUnknown": true,
-      "timeLabel": "TBD",
+      "allDay": false,
+      "timeUnknown": false,
+      "timeLabel": "1 p.m.",
       "status": "",
       "location": "Medford, Ore. Lithia & Driveway Fields",
       "sourceUrl": "https://bushnellbeacons.com/sports/womens-soccer/schedule",
@@ -329,6 +329,6 @@
   "skipped": 0,
   "note": "Saved official season schedule. Dates may change; confirm with the official athletics site.",
   "source": "https://bushnellbeacons.com/sports/womens-soccer/schedule",
-  "fetchedAt": "2026-10-29T19:04:32.238460+00:00",
+  "fetchedAt": "2026-11-03T21:43:27.832510+00:00",
   "available": true
 }

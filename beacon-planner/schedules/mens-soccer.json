@@ -366,12 +366,12 @@
     },
     {
       "id": "7236",
-      "title": "CCC Quarterfinals",
-      "start": "2026-11-07",
+      "title": "Southern Oregon University",
+      "start": "2026-11-07T16:00:00-08:00",
       "end": null,
-      "allDay": true,
-      "timeUnknown": true,
-      "timeLabel": "TBD",
+      "allDay": false,
+      "timeUnknown": false,
+      "timeLabel": "4 p.m.",
       "status": "",
       "location": "Medford, Ore. Lithia & Driveway Fields",
       "sourceUrl": "https://bushnellbeacons.com/sports/mens-soccer/schedule",
@@ -446,6 +446,6 @@
   "skipped": 0,
   "note": "Saved official season schedule. Dates may change; confirm with the official athletics site.",
   "source": "https://bushnellbeacons.com/sports/mens-soccer/schedule",
-  "fetchedAt": "2026-10-29T19:04:00.960513+00:00",
+  "fetchedAt": "2026-11-03T21:42:57.274790+00:00",
   "available": true
 }
