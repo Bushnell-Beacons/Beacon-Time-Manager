@@ -157,6 +157,58 @@
       "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
     },
     {
+      "id": "7640",
+      "title": "Fortnite Finals Week 1",
+      "start": "2026-12-01T17:00:00-08:00",
+      "end": null,
+      "allDay": false,
+      "timeUnknown": false,
+      "timeLabel": "5 p.m.",
+      "status": "",
+      "location": "Eugene, Ore. Bushnell Esports Arena",
+      "sourceUrl": "https://bushnellbeacons.com/sports/esports/schedule",
+      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
+    },
+    {
+      "id": "7642",
+      "title": "Fortnite Finals Week 1",
+      "start": "2026-12-03T17:00:00-08:00",
+      "end": null,
+      "allDay": false,
+      "timeUnknown": false,
+      "timeLabel": "5 p.m.",
+      "status": "",
+      "location": "Eugene, Ore. Bushnell Esports Arena",
+      "sourceUrl": "https://bushnellbeacons.com/sports/esports/schedule",
+      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
+    },
+    {
+      "id": "7641",
+      "title": "Fortnite Finals Week 2",
+      "start": "2026-12-08",
+      "end": null,
+      "allDay": true,
+      "timeUnknown": true,
+      "timeLabel": "Time TBA",
+      "status": "",
+      "location": "Eugene, Ore. Bushnell Esports Arena",
+      "sourceUrl": "https://bushnellbeacons.com/sports/esports/schedule",
+      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
+    },
+    {
+      "id": "7643",
+      "title": "Fortnite Finals Week 2",
+      "start": "2026-12-10",
+      "end": null,
+      "allDay": true,
+      "timeUnknown": true,
+      "timeLabel": "Time TBA",
+      "status": "",
+      "location": "Eugene, Ore. Bushnell Esports Arena",
+      "sourceUrl": "https://bushnellbeacons.com/sports/esports/schedule",
+      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
+    },
+    {
       "id": "7453",
       "title": "Fisher College (Mass.)",
       "start": "2026-09-22T17:00:00-07:00",
@@ -314,8 +366,34 @@
     },
     {
       "id": "7459",
-      "title": "NBA 2K Week 7",
+      "title": "Indiana University East",
       "start": "2026-11-03T17:00:00-08:00",
+      "end": null,
+      "allDay": false,
+      "timeUnknown": false,
+      "timeLabel": "5 p.m.",
+      "status": "",
+      "location": "Eugene, Ore. Bushnell Esports Arena",
+      "sourceUrl": "https://bushnellbeacons.com/sports/esports/schedule",
+      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
+    },
+    {
+      "id": "7644",
+      "title": "Adrian College",
+      "start": "2026-11-03T17:00:00-08:00",
+      "end": null,
+      "allDay": false,
+      "timeUnknown": false,
+      "timeLabel": "5 p.m.",
+      "status": "",
+      "location": "Eugene, Ore. Bushnell Esports Arena",
+      "sourceUrl": "https://bushnellbeacons.com/sports/esports/schedule",
+      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
+    },
+    {
+      "id": "7647",
+      "title": "NBA 2K Playoffs",
+      "start": "2026-11-17T17:00:00-08:00",
       "end": null,
       "allDay": false,
       "timeUnknown": false,
@@ -406,7 +484,7 @@
     {
       "id": "7317",
       "title": "Apex Legends Week 7",
-      "start": "2026-11-04T17:00:00-08:00",
+      "start": "2026-11-11T17:00:00-08:00",
       "end": null,
       "allDay": false,
       "timeUnknown": false,
@@ -573,8 +651,21 @@
       "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
     },
     {
+      "id": "7645",
+      "title": "John Brown University (Ark.)",
+      "start": "2026-11-04T17:00:00-08:00",
+      "end": null,
+      "allDay": false,
+      "timeUnknown": false,
+      "timeLabel": "5 p.m.",
+      "status": "",
+      "location": "Eugene, Ore. Bushnell Esports Arena",
+      "sourceUrl": "https://bushnellbeacons.com/sports/esports/schedule",
+      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
+    },
+    {
       "id": "7324",
-      "title": "College Football Week 7",
+      "title": "University of Rio Grande (Ohio)",
       "start": "2026-11-04T17:00:00-08:00",
       "end": null,
       "allDay": false,
@@ -589,6 +680,6 @@
   "skipped": 0,
   "note": "Saved official season schedule. Dates may change; confirm with the official athletics site.",
   "source": "https://bushnellbeacons.com/sports/esports/schedule",
-  "fetchedAt": "2026-10-29T19:09:13.647013+00:00",
+  "fetchedAt": "2026-11-05T18:52:06.399975+00:00",
   "available": true
 }
