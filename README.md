@@ -19,6 +19,8 @@ University dates retain inclusive range ends using an exclusive stored `end`. Th
 
 Click an empty time or **Add activity** to create a class; click a block to edit its name, times, recurring days, and color. Text contrast adjusts automatically. The daily agenda uses the same editable entries. No student-facing view/theme switcher or JSON backup controls are present.
 
+Click a scheduled game (or its dated TBA note) to open game details, then choose **Remove from my schedule**. This saves a per-browser hidden-game preference without changing the official team schedule. Removed games stay hidden after schedule reloads and are excluded from the daily agenda, PDF exports, next-competition navigation, and postgame check-ins. Use **Removed from my schedule** below the calendar to restore them. Private sessions keep removal choices only in memory.
+
 Personal entries stay in this browser profile. Normal mode uses unencrypted localStorage; private-session mode avoids saving and clears on reload/page exit. Other open tabs are told to stop saving after private mode is enabled. Shared computers and downloaded PDFs still require care. See [SECURITY.md](SECURITY.md) for the actual protections and limitations.
 
 `.ics` and `.csv` files are parsed locally, never uploaded. Choose a sport, click the visible Import CSV button, and set the CSV year in Schedule details & import when dates omit it. The dedicated picker has no file-type filter to avoid platform-specific CSV files being grayed out; the app validates the .csv extension after selection. Imports open the first week of the file automatically. CSV supports Date, Event/Title, Duration (a time range), Location, Required Attendance, and Description; separate Start Time/End Time columns also work with AM/PM or 24-hour times. Dates support YYYY-MM-DD, MM/DD/YYYY, or month/day labels. Exact ranges use Pacific time; incomplete or ambiguous times remain dated notes marked for confirmation. A confirmation shows entry/review/skipped counts before import. Attendance groups are displayed as labels, not automatically assigned to students. Only the selected student browser receives imported entries; no uploaded CSV is bundled with the public site. Limits: 2 MB, 2,000 events, 40,000 lines. UTC and IANA timezones are supported; floating times use Pacific time and DST. All-day dates stay fixed. Recurring ICS rules/exceptions and custom timezone definitions are skipped. Cross-midnight timed events currently show only their start day through midnight. Unpublished game durations use sport-specific planning estimates, visibly marked “est.” in the calendar, agenda, and PDFs; TBA games remain above the grid. Estimates exclude warm-ups and travel. See [duration research](beacon-planner/sports-duration-research.json) for samples, limits, and provisional values. Overlapping scheduled hours are counted separately.
@@ -67,6 +69,7 @@ python beacon-planner/tests/browser_features.py
 python beacon-planner/tests/browser_reminders.py
 python beacon-planner/tests/browser_celebrations.py
 python beacon-planner/tests/browser_sports_blocks.py
+python beacon-planner/tests/browser_remove_games.py
 python beacon-planner/tests/browser_academic_dates.py
 python beacon-planner/tests/live_schedule_smoke.py
 python beacon-planner/tests/browser_privacy_security.py

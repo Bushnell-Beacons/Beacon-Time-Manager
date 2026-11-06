@@ -28,6 +28,8 @@ with sync_playwright() as p:
  games=[e for d in snapshot['days'] for e in d['events'] if e['title']=='Continuous Test Game']
  assert len(games)==2 and all(e['estimated'] and e['end']-e['start']>60 for e in games)
  page.locator('.official-event').first.click()
+ assert page.locator('#gameDetails').is_visible()
+ page.locator('#closeGameDetails').click()
  # Dialog handled automatically by Playwright when no listeners exist.
  page.locator('#print').click()
  page.locator('input[name="pdfLayout"][value="agenda"]').check()
