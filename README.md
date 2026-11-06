@@ -23,6 +23,10 @@ Personal entries stay in this browser profile. Normal mode uses unencrypted loca
 
 `.ics` and `.csv` files are parsed locally, never uploaded. Choose a sport, click the visible Import CSV button, and set the CSV year in Schedule details & import when dates omit it. The dedicated picker has no file-type filter to avoid platform-specific CSV files being grayed out; the app validates the .csv extension after selection. Imports open the first week of the file automatically. CSV supports Date, Event/Title, Duration (a time range), Location, Required Attendance, and Description; separate Start Time/End Time columns also work with AM/PM or 24-hour times. Dates support YYYY-MM-DD, MM/DD/YYYY, or month/day labels. Exact ranges use Pacific time; incomplete or ambiguous times remain dated notes marked for confirmation. A confirmation shows entry/review/skipped counts before import. Attendance groups are displayed as labels, not automatically assigned to students. Only the selected student browser receives imported entries; no uploaded CSV is bundled with the public site. Limits: 2 MB, 2,000 events, 40,000 lines. UTC and IANA timezones are supported; floating times use Pacific time and DST. All-day dates stay fixed. Recurring ICS rules/exceptions and custom timezone definitions are skipped. Cross-midnight timed events currently show only their start day through midnight. Unpublished game durations use sport-specific planning estimates, visibly marked “est.” in the calendar, agenda, and PDFs; TBA games remain above the grid. Estimates exclude warm-ups and travel. See [duration research](beacon-planner/sports-duration-research.json) for samples, limits, and provisional values. Overlapping scheduled hours are counted separately.
 
+Completing a goal triggers a five-second confirmation and a short navy/gold confetti burst; unchecking, rendering, or reloading a completed goal does not trigger it. Reduced-motion preferences disable confetti, and no audio plays.
+
+After the latest timed official game for the selected sport finishes, a personal check-in asks how it went. Published end times take precedence; otherwise the sport’s planning duration estimates the finish. Cancelled, postponed, TBA/all-day, future, and more-than-72-hour-old games do not prompt. The page checks once a minute while open and when revisited/visible. Win gives a celebration, loss gives encouragement, and tie gives a reflection message. Students can change an answer before closing, snooze for one hour (also via Escape before answering), or skip. Answers and snoozes are stored only in the existing browser-local planner state; private mode keeps them only for that page session. These are self-reports, not official/live scores, and are not published to other students. No score-update service or owner-provided results file is required.
+
 Reminders support Low/Normal/High importance and a custom color stripe, with text labels so importance does not depend on color. Edit preserves the reminder instead of duplicating it; older entries default to Normal. Choices save in the same browser unless Private session is on. Reminders work while the page is open. Browser notifications are optional and use generic text instead of reminder contents. No cloud sync, student-account database, analytics, or automatic sharing is included.
 
 ## PDFs
@@ -61,6 +65,7 @@ Optional browser checks need Python Playwright and `/usr/bin/chromium`. Run with
 ```sh
 python beacon-planner/tests/browser_features.py
 python beacon-planner/tests/browser_reminders.py
+python beacon-planner/tests/browser_celebrations.py
 python beacon-planner/tests/browser_sports_blocks.py
 python beacon-planner/tests/browser_academic_dates.py
 python beacon-planner/tests/live_schedule_smoke.py

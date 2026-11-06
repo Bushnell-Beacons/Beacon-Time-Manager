@@ -6,7 +6,7 @@ This is a security baseline, not a guarantee against breaches or a compliance ce
 
 | Content | Handling |
 | --- | --- |
-| Names/nicknames, classes, goals, reminders | Browser only. Saving uses unencrypted localStorage in this browser profile. Private session keeps entries only in page memory. |
+| Names/nicknames, classes, goals, reminders, game check-in answers | Browser only. Saving uses unencrypted localStorage in this browser profile. Private session keeps entries only in page memory. |
 | Imported ICS/CSV files | Parsed locally. Files and filenames are not uploaded. |
 | Sports, academic dates, KJV verses, reading references | Included public files. No live API calls, student-specific requests, or paid data services. |
 | PDF exports | Created on-device; they contain schedule information and remain wherever the user saves/shares them. |

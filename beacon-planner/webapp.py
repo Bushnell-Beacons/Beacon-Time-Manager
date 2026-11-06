@@ -16,7 +16,7 @@ SPORTS = {'baseball','mens-basketball','womens-basketball','mens-soccer','womens
           'womens-cross-country','mens-track-and-field','womens-track-and-field','mens-golf','womens-golf','esports'}
 PUBLIC_FILES = {'index.html','academic-calendar.js','academic-calendar.json','bible-verses.js',
                 'calendar-import.js','csv-import.js','sports-events.js','privacy-storage.js','planner-views.css','planner-views.js',
-                'schedule-pdf.js','theme.css','reading-plan.json','daily-verses.json','vendor/jspdf.umd.min.js','assets/beacon-b.png','assets/tri-athlete-model.png'}
+                'schedule-pdf.js','celebrations.js','theme.css','reading-plan.json','daily-verses.json','vendor/jspdf.umd.min.js','assets/beacon-b.png','assets/tri-athlete-model.png'}
 
 
 def security_headers():
