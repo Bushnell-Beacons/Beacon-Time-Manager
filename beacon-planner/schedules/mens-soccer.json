@@ -376,76 +376,11 @@
       "location": "Medford, Ore. Lithia & Driveway Fields",
       "sourceUrl": "https://bushnellbeacons.com/sports/mens-soccer/schedule",
       "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
-    },
-    {
-      "id": "7237",
-      "title": "CCC Semifinals",
-      "start": "2026-11-09",
-      "end": null,
-      "allDay": true,
-      "timeUnknown": true,
-      "timeLabel": "TBD",
-      "status": "",
-      "location": "Medford, Ore. Lithia & Driveway Fields",
-      "sourceUrl": "https://bushnellbeacons.com/sports/mens-soccer/schedule",
-      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
-    },
-    {
-      "id": "7238",
-      "title": "CCC Championship",
-      "start": "2026-11-11",
-      "end": null,
-      "allDay": true,
-      "timeUnknown": true,
-      "timeLabel": "TBD",
-      "status": "",
-      "location": "Medford, Ore. Lithia & Driveway Fields",
-      "sourceUrl": "https://bushnellbeacons.com/sports/mens-soccer/schedule",
-      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
-    },
-    {
-      "id": "7239",
-      "title": "NAIA First Round",
-      "start": "2026-11-19",
-      "end": null,
-      "allDay": true,
-      "timeUnknown": true,
-      "timeLabel": "TBD",
-      "status": "",
-      "location": "TBD",
-      "sourceUrl": "https://bushnellbeacons.com/sports/mens-soccer/schedule",
-      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
-    },
-    {
-      "id": "7240",
-      "title": "NAIA Second Round",
-      "start": "2026-11-21",
-      "end": null,
-      "allDay": true,
-      "timeUnknown": true,
-      "timeLabel": "TBD",
-      "status": "",
-      "location": "TBD",
-      "sourceUrl": "https://bushnellbeacons.com/sports/mens-soccer/schedule",
-      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
-    },
-    {
-      "id": "7241",
-      "title": "NAIA Final Site Begins",
-      "start": "2026-11-30",
-      "end": null,
-      "allDay": true,
-      "timeUnknown": true,
-      "timeLabel": "TBD",
-      "status": "",
-      "location": "Orange Beach, Ala. Orange Beach Sportsplex",
-      "sourceUrl": "https://bushnellbeacons.com/sports/mens-soccer/schedule",
-      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
     }
   ],
   "skipped": 0,
   "note": "Saved official season schedule. Dates may change; confirm with the official athletics site.",
   "source": "https://bushnellbeacons.com/sports/mens-soccer/schedule",
-  "fetchedAt": "2026-11-05T18:46:25.258912+00:00",
+  "fetchedAt": "2026-11-09T17:38:10.910883+00:00",
   "available": true
 }

@@ -77,24 +77,11 @@
       "location": "Lewiston, Idaho LC State Cross Country Trail",
       "sourceUrl": "https://bushnellbeacons.com/sports/mens-cross-country/schedule",
       "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
-    },
-    {
-      "id": "7339",
-      "title": "NAIA Championship",
-      "start": "2026-11-20",
-      "end": null,
-      "allDay": true,
-      "timeUnknown": true,
-      "timeLabel": "TBD",
-      "status": "",
-      "location": "Vancouver, Wash. Fort Vancouver",
-      "sourceUrl": "https://bushnellbeacons.com/sports/mens-cross-country/schedule",
-      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
     }
   ],
   "skipped": 0,
   "note": "Saved official season schedule. Dates may change; confirm with the official athletics site.",
   "source": "https://bushnellbeacons.com/sports/mens-cross-country/schedule",
-  "fetchedAt": "2026-11-05T18:48:59.975910+00:00",
+  "fetchedAt": "2026-11-09T17:40:43.448490+00:00",
   "available": true
 }

@@ -392,14 +392,14 @@
     },
     {
       "id": "7298",
-      "title": "CCC Opening Round",
-      "start": "2026-11-10",
+      "title": "Oregon Tech",
+      "start": "2026-11-10T18:00:00-08:00",
       "end": null,
-      "allDay": true,
-      "timeUnknown": true,
-      "timeLabel": "TBD",
+      "allDay": false,
+      "timeUnknown": false,
+      "timeLabel": "6 p.m.",
       "status": "",
-      "location": "TBD",
+      "location": "Eugene, Ore. Morse Center",
       "sourceUrl": "https://bushnellbeacons.com/sports/womens-volleyball/schedule",
       "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
     },
@@ -412,7 +412,7 @@
       "timeUnknown": true,
       "timeLabel": "TBD",
       "status": "",
-      "location": "TBD",
+      "location": "Caldwell, Idaho JA Albertson Activities Center",
       "sourceUrl": "https://bushnellbeacons.com/sports/womens-volleyball/schedule",
       "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
     },
@@ -425,7 +425,7 @@
       "timeUnknown": true,
       "timeLabel": "TBD",
       "status": "",
-      "location": "TBD",
+      "location": "Caldwell, Idaho JA Albertson Activities Center",
       "sourceUrl": "https://bushnellbeacons.com/sports/womens-volleyball/schedule",
       "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
     },
@@ -438,7 +438,7 @@
       "timeUnknown": true,
       "timeLabel": "TBD",
       "status": "",
-      "location": "TBD",
+      "location": "Caldwell, Idaho JA Albertson Activities Center",
       "sourceUrl": "https://bushnellbeacons.com/sports/womens-volleyball/schedule",
       "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
     },
@@ -472,6 +472,6 @@
   "skipped": 0,
   "note": "Saved official season schedule. Dates may change; confirm with the official athletics site.",
   "source": "https://bushnellbeacons.com/sports/womens-volleyball/schedule",
-  "fetchedAt": "2026-11-05T18:47:26.967602+00:00",
+  "fetchedAt": "2026-11-09T17:39:12.065335+00:00",
   "available": true
 }
