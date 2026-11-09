@@ -17,7 +17,7 @@ University dates retain inclusive range ends using an exclusive stored `end`. Th
 
 ## Editing and privacy
 
-Click an empty time or **Add activity** to create a class; click a block to edit its name, times, recurring days, and color. Text contrast adjusts automatically. The daily agenda uses the same editable entries. No student-facing view/theme switcher or JSON backup controls are present.
+Click an empty time or **Add activity** to create a class; click a block to edit its name, times, recurring days, color, and **Length (minutes)**. Enter a custom whole-minute length or choose 50, 60, 75, 90, or 120 minutes. Changing start time or length updates the end time; changing end time updates the length. Start/end choices use five-minute intervals, and custom computed or previously saved exact-minute values are preserved. Activities must end by midnight. Text contrast adjusts automatically. The daily agenda uses the same editable entries. No student-facing view/theme switcher or JSON backup controls are present.
 
 Click a scheduled game (or its dated TBA note) to open game details, then choose **Remove from my schedule**. This saves a per-browser hidden-game preference without changing the official team schedule. Removed games stay hidden after schedule reloads and are excluded from the daily agenda, PDF exports, next-competition navigation, and postgame check-ins. Use **Removed from my schedule** below the calendar to restore them. Private sessions keep removal choices only in memory.
 
@@ -66,6 +66,7 @@ Optional browser checks need Python Playwright and `/usr/bin/chromium`. Run with
 
 ```sh
 python beacon-planner/tests/browser_features.py
+python beacon-planner/tests/browser_class_duration.py
 python beacon-planner/tests/browser_reminders.py
 python beacon-planner/tests/browser_celebrations.py
 python beacon-planner/tests/browser_sports_blocks.py
