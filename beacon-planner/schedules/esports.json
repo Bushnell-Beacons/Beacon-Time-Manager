@@ -391,13 +391,26 @@
       "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
     },
     {
-      "id": "7647",
-      "title": "NBA 2K Playoffs",
+      "id": "7649",
+      "title": "Post University",
       "start": "2026-11-17T17:00:00-08:00",
       "end": null,
       "allDay": false,
       "timeUnknown": false,
       "timeLabel": "5 p.m.",
+      "status": "",
+      "location": "Eugene, Ore. Bushnell Esports Arena",
+      "sourceUrl": "https://bushnellbeacons.com/sports/esports/schedule",
+      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
+    },
+    {
+      "id": "7647",
+      "title": "Mount Aloysius College",
+      "start": "2026-11-17T19:00:00-08:00",
+      "end": null,
+      "allDay": false,
+      "timeUnknown": false,
+      "timeLabel": "7 p.m.",
       "status": "",
       "location": "Eugene, Ore. Bushnell Esports Arena",
       "sourceUrl": "https://bushnellbeacons.com/sports/esports/schedule",
@@ -485,6 +498,19 @@
       "id": "7317",
       "title": "Apex Legends Week 7",
       "start": "2026-11-11T17:00:00-08:00",
+      "end": null,
+      "allDay": false,
+      "timeUnknown": false,
+      "timeLabel": "5 p.m.",
+      "status": "",
+      "location": "Eugene, Ore. Bushnell Esports Arena",
+      "sourceUrl": "https://bushnellbeacons.com/sports/esports/schedule",
+      "timeZoneNote": "Times without a zone are interpreted in Pacific time. Confirm with the official schedule."
+    },
+    {
+      "id": "7648",
+      "title": "Apex Legends Semifinals",
+      "start": "2026-11-18T17:00:00-08:00",
       "end": null,
       "allDay": false,
       "timeUnknown": false,
@@ -680,6 +706,6 @@
   "skipped": 0,
   "note": "Saved official season schedule. Dates may change; confirm with the official athletics site.",
   "source": "https://bushnellbeacons.com/sports/esports/schedule",
-  "fetchedAt": "2026-11-09T17:43:47.869458+00:00",
+  "fetchedAt": "2026-11-17T23:50:39.852409+00:00",
   "available": true
 }

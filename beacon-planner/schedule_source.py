@@ -101,6 +101,26 @@ def parse_schedule(html, source):
                     continue
                 if start.month == month and start.day == day and normalized(opponent) in normalized(item.get('name', '')):
                     years.add(start.year)
+            # Newly resolved playoff opponents can be missing from stale JSON-LD.
+            # A full date on a link inside this same game is also first-party
+            # evidence, provided it names this opponent and matches the visible day.
+            explicit_years = set()
+            for node in game.walk():
+                label = node.attrs.get('aria-label', '')
+                if not opponent or normalized(opponent) not in normalized(label):
+                    continue
+                for full in re.finditer(r'\bon\s+([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})\b', label, re.I):
+                    try:
+                        label_month = datetime.strptime(full[1][:3], '%b').month
+                        labelled = date(int(full[3]), label_month, int(full[2]))
+                    except ValueError:
+                        continue
+                    if labelled.month == month and labelled.day == day:
+                        explicit_years.add(labelled.year)
+            if years and explicit_years and years != explicit_years:
+                raise ValueError('Conflicting competition years')
+            if not years:
+                years = explicit_years
             if len(years) != 1:
                 raise ValueError('Missing or ambiguous competition year')
             on = date(years.pop(), month, day)

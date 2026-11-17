@@ -51,6 +51,22 @@ class ScheduleSourceTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             source.parse_schedule(html, 'official')
 
+    def test_resolved_playoff_opponent_uses_own_full_date_label(self):
+        # Synthetic minimal case; this is not shipped as an official game.
+        html = '<script type="application/ld+json">[{"@type":"SportsEvent","name":"Bushnell Vs NBA 2K Playoffs","startDate":"2026-11-17T17:00:00"}]</script>'
+        html += '<li class="sidearm-schedule-game" data-game-id="playoff"><div class="sidearm-schedule-game-opponent-name">Post University</div><div class="sidearm-schedule-game-opponent-date"><span>Nov 17 (Tue)</span><span>7 p.m.</span></div><a aria-label="Watch Video for Esports vs Post University on November 17, 2026 at 7 p.m.">Watch</a></li>'
+        result = source.parse_schedule(html, 'official')
+        self.assertEqual(result['skipped'], 0)
+        self.assertEqual(result['events'][0]['start'], '2026-11-17T19:00:00-08:00')
+        self.assertEqual(result['events'][0]['title'], 'Post University')
+        # A different opponent/date is not acceptable evidence for this game.
+        for changed in [html.replace('on November 17, 2026', 'on November 18, 2026'), html.replace('vs Post University on', 'vs Another College on')]:
+            with self.assertRaises(ValueError):
+                source.parse_schedule(changed, 'official')
+        conflict = html.replace('NBA 2K Playoffs', 'Post University').replace('on November 17, 2026', 'on November 17, 2027')
+        with self.assertRaises(ValueError):
+            source.parse_schedule(conflict, 'official')
+
     def test_cache_reuses_result_and_checks_robots(self):
         policy = RobotFileParser()
         policy.parse(['User-agent: *', 'Allow: /'])

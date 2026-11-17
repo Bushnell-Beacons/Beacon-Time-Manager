@@ -81,11 +81,11 @@
     {
       "id": "7346",
       "title": "NAIA Championship",
-      "start": "2026-11-20",
+      "start": "2026-11-20T11:30:00-08:00",
       "end": null,
-      "allDay": true,
-      "timeUnknown": true,
-      "timeLabel": "TBD",
+      "allDay": false,
+      "timeUnknown": false,
+      "timeLabel": "11:30 a.m.",
       "status": "",
       "location": "Vancouver, Wash. Fort Vancouver",
       "sourceUrl": "https://bushnellbeacons.com/sports/womens-cross-country/schedule",
@@ -95,6 +95,6 @@
   "skipped": 0,
   "note": "Saved official season schedule. Dates may change; confirm with the official athletics site.",
   "source": "https://bushnellbeacons.com/sports/womens-cross-country/schedule",
-  "fetchedAt": "2026-11-09T17:41:13.899160+00:00",
+  "fetchedAt": "2026-11-17T23:45:46.346150+00:00",
   "available": true
 }
